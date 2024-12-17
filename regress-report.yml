@@ -1,130 +1,229 @@
----
-test-cases:
-- summary: |
-    Проверка использование пользователем поиска товара по ключевым словам 
-status: fail
+Файл не выбран
+JSON Formatter
+JSON Beautifier
+JSON Parser
+XML Formatter
+JSBeautifier
+Save
+Recent Links
+Login
+Copied to Clipboard
 
-- summary: |
-    Проверка использование пользователем поиска товара по категориям
-status: fail
+YAML Validator
+Sample
+      Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
 
-- summary: |
-    Проверка использование пользователем фильтра товара по «Производителю»
-status: fail
 
-- summary: |
-    Проверка использование пользователем фильтра товара по «Цене»
-status: fail
-
-- summary: |
-    Проверка использование пользователем мобильной версией сайта
-status: pass
  
-- summary: |
-    Проверка возможности просмотра товаров пользователем
-status: pass
 
-- summary: |
-    Проверка возможности просматривать подробную информацию о товаре пользователем
-status: pass
 
-- summary: |
-    Проверка возможность добавлять товары в корзину и просматривать содержимое корзины пользователем
-status: pass
+    Отобразится товар который закончился на данной странице
 
-- summary: |
-    Проверка использование пользователем сайта на различных устройствах
-status: pass
 
-bugreports:
- - summary: |
-    Обрезает вверх и низ фотографии у товара на главной странице
-  environment: |
-   Google Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
-    Windows 11 Pro 22H2
-  steps-to-reproduce: |
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-  expected-result: |
-    В основной части сайта изображен товар в два столбика, где каждый товар имеет фотографию товара пропорциональную 4:3
-  actual-result: |
-    В основной части сайта изображен товар в два столбика, где каждый товар имеет фотографию товара пропорциональную 4:3, но фотографии товаров обрезанны сверху и снизу
 
-- summary: |
-    Не дает зайти на страницу товара, кликая на описание товара
-  environment: |
-   Google Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
-    Windows 11 Pro 22H2
-  steps-to-reproduce: |
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Открыть страницу товара кликая на изображение товара или описание товара
-  expected-result: |
-    Открывается страница товара
-  actual-result: |
-    Страница товара открывается только по клику на изображение товара
+ 
+Ad blocking? It's okay. Please share to support us:
 
-- summary: |
-    Меняется язык с русского на английски при нажатии кнопки "Магазин"
-  environment: |
-   Google Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
-    Windows 11 Pro 22H2
-  steps-to-reproduce: |
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. В шапке страницы выбрать русский язык
-    3. Нажать кнопку "Магазин"
-  expected-result: |
-    Откроется главная страница сайта на русском языке
-  actual-result: |
-    Открывается главная страница сайта на английском языке
+Share TweetShareShare
+YAML Validator
+YAML Validator helps to validate the YAML data. It's a pretty simple and easy way to lint YAML Data and Share it with others.
 
-- summary: |
-    Не фильтрует первую страницу магазина при фильтрации по категории "В наличии"
-  environment: |
-   Google Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
-    Windows 11 Pro 22H2
-  steps-to-reproduce: |
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Нажать на checkbox "В наличии" (галочка должна убраться)
-  expected-result: |
-    Покажет товары, которых нет в наличии
-  actual-result: |
-    Ничего не происходит
+This YAML Lint can we used by a developer who works extensively with YAML data or who just started leaning YAML.
 
-- summary: |
-    Проподает кнопка "Следующая" при фильтрации по категории "В наличии"
-  environment: |
-   Google Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
-    Windows 11 Pro 22H2
-  steps-to-reproduce: |
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Нажать на checkbox "В наличии" (галочка должна убраться)
-  expected-result: |
-    Есть возможность перейти на следующую страницу магазина при нажатии на кнопку "Следующая"
-  actual-result: |
-    Кнопка "Следующая" пропала
+Best and Secure Online YAML Validator works well in Windows, Mac, Linux, Chrome, Firefox, Safari and Edge.
 
-- summary: |
-    Проподает кнопка "Следующая" при фильтрации по категории "В наличии"
-  environment: |
-   Google Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
-    Windows 11 Pro 22H2
-  steps-to-reproduce: |
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Нажать на checkbox "В наличии" (галочка должна убраться)
-  expected-result: |
-    Есть возможность перейти на следующую страницу магазина при нажатии на кнопку "Следующая"
-  actual-result: |
-    Кнопка "Следующая" пропала
+FAQ
 
-- summary: |
-   При фильтрации по категории "В наличии" второй страницы магазина едет верстка бокового меню сайта (она увеличивается)
-  environment: |
-   Google Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
-    Windows 11 Pro 22H2
-  steps-to-reproduce: |
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Перейти на вторую страницу магазина по кнопке "Следующая"
-    3. Нажать на checkbox "В наличии" (галочка должна убраться)
-  expected-result: |
-   Показывает товары по фильтрации, верстка нигде не поехала
-  actual-result: |
-    Показывает товары по фильтрации, верстка поехала у бокового меню сайта
+Why YAML VAlidator?
+How to use YAML Validator with URL?
+Is login required to save YAML data?
+Have you accidentally saved your YAML data?
+Functionality
+
+JSON Formatter, JSON Validator, JSON Editor, JSON Viewer, JSON to XML, JSON to CSV, JSON to YAML, JSON Tree View, JSON Pretty Print, JSON Parser
+
+Follow us
+
+ 
+JSON Formatter
+
+JSON Formatter is free to use tool which helps to format, validate, save and share your JSON data.
+
+JSON
+
+JSON Formatter
+JSON Validator
+JSON Editor
+JSON Pretty Print
+JSON Viewer
+JSON Parser
+JSON Minify
+JSON Reader
+JSON Stringify Online
+JSON to One Line
+JSON Compare
+JSON Sorter
+Converters
+
+JSON to XML
+JSON to CSV
+JSON to YAML
+JSON to TSV
+JSON to String
+XML to JSON
+XML to CSV
+XML to String
+XML to YAML
+RSS to JSON
+YAML to JSON
+YAML to XML
+YAML to CSV
+CSV to JSON
+CSV to XML
+CSV to YAML
+CSV to HTML
+String to JSON
+XML
+
+XML Formatter
+XML Minify
+XML Viewer
+XML Pretty Print
+XML Validator
+XML Editor
+XML Parser
+WSDL Formatter
+SOAP Formatter
+YAML
+
+YAML Validator
+YAML Viewer
+YAML Formatter
+YAML Parser
+HTML
+
+HTML Formatter
+HTML Pretty Print
+HTML Validator
+HTML Viewer
+HTML Editor
+JSBeautifier
+HTML Minify
+JADE to HTML
+HTML to JADE
+EXCEL to HTML
+Escaper
+
+HTML Escape HTML Unescape
+XML Escape XML Unescape
+Javascript Escape Javascript Unescape
+Java Escape Java Unescape
+.Net Escape .Net Unescape
+JSON Escape JSON Unescape
+CSV Escape CSV Unescape
+SQL Escape SQL Unescape
+Other tools
+
+String Utility
+All Tools
+JSON Tools
+XML Tools
+YAML Tools
+Formatter Tools
+Data to Class Converters
+Articles
+
+What is JSON?
+JSON Example
+Javascript
+
+JSBeautifier
+Javascript Pretty Print
+JSON5
+
+JSON5 Formatter
+JSON5 Validator
+URL Encoders
+
+URL Encode URL Decode
+JSON URL Encode JSON URL Decode
+XML URL Encode XML URL Decode
+YAML URL Encode YAML URL Decode
+Base64 Encoders
+
+Base64 to JSON JSON to Base64
+Base64 to XML XML to Base64
+Base64 to YAML YAML to Base64
+CSS Converters
+
+Minify CSS
+CSS Beautifier
+CSS Formatter
+CSS Pretty Print
+CSS to LESS
+CSS to SCSS
+CSS to SASS
+CSS to Stylus
+Stylus to CSS
+Stylus to LESS
+Stylus to SCSS
+Stylus to SASS
+LESS to CSS
+LESS to SCSS
+LESS to SASS
+LESS to Stylus
+SCSS to CSS
+SCSS to LESS
+SCSS to SASS
+SCSS to Stylus
+SASS to CSS
+SASS to LESS
+SASS to SCSS
+SASS to Stylus
+Data to Class
+
+JSON to Java XML to Java
+JSON to Python XML to Python
+JSON to Objective-C XML to Objective-C
+JSON to JSON Schema XML to JSON Schema
+JSON to Swift XML to Swift
+JSON to C# XML to C#
+JSON to Go XML to Go
+JSON to Rust XML to Rust
+JSON to Crystal XML to Crystal
+JSON to C++ XML to C++
+JSON to TypeScript XML to TypeScript
+JSON to JavaScript Proptypes XML to JavaScript Proptypes
+JSON to Flow XML to Flow
+JSON to Kotlin XML to Kotlin
+JSON to Elm XML to Elm
+JSON to Ruby XML to Ruby
+JSON to Dart XML to Dart
+JSON to Pike XML to Pike
+JSON to Haskell XML to Haskell
+Online Formatters
+
+JSON Formatter
+JSON5 Formatter
+XML Formatter
+HTML Formatter
+YAML Formatter
+JavaScript Formatter
+CSS Formatter
+C# Formatter
+Java Formatter
+GraphQL Formatter
+Angular Formatter
+Vue JS Formatter
+LESS Formatter
+SCSS Formatter
+TypeScript Formatter
+Babel Formatter
+Markdown Formatter
+MDX Formatter
+Glimmer JS Formatter
+LWC Formatter
+PHP Formatter
+WSDL Formatter
+SOAP Formatter
+Copyright © JSON Formatter 2020 3.8 | Privacy Policy | About | FAQ | Blog | Contact | Base64 to Image | Hex Color Codes | Text Compare
