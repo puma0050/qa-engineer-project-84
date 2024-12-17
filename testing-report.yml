@@ -33,4 +33,4 @@ status: pass
 
 - summary: |
     Проверка использование пользователем сайта на различных устройствах
-status: fail
+status: pass
