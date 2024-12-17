@@ -1,9 +1,9 @@
 ---
 # Если хотите пояснить код, можно добавить комментарий с помощью символа #
-name: Vladislav Rodionov # Ваше имя
+name: Ilona Maskova # Ваше имя
 job: QA Engineer
 level: junior
-email: puma0050@gmail.com
+email: ilona@hexlet.io
 description: |
   Этот текст — описание в свободной форме. Здесь можно рассказать пару интересных фактов про себя.
 
