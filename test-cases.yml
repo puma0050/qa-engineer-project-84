@@ -5,7 +5,7 @@
     Пользователь должен иметь возможность искать товары по ключевому слову или
     категории  
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/
+    Открыта главная страница 
   test-data: |
     Ключевое слово «Powder»
   steps:
@@ -19,7 +19,7 @@
     Пользователь должен иметь возможность искать товары по ключевому слову или
     категории  
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/)
+    Открыта главная страница 
   test-data: |
     no data
   steps:
@@ -31,7 +31,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары  
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/)
+    Открыта главная страница 
   test-data: |
     no data
   steps:
@@ -43,7 +43,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары  
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/)
+    Открыта главная страница 
   test-data: |
     цена от пяти
     цена до семи
@@ -58,7 +58,7 @@
   requirement: |
     Сайт должен иметь мобильную версию
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/)
+    Открыта главная страница 
   test-data: |
     no data
   steps:
@@ -74,7 +74,7 @@
     Пользователь должен иметь возможность просматривать товары и просматривать
     подробную информацию о товаре
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/)
+    Открыта главная страница 
   test-data: |
     no data
   steps: no steps
@@ -89,7 +89,7 @@
     Пользователь должен иметь возможность просматривать товары и просматривать
     подробную информацию о товаре
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/)
+    Открыта главная страница 
   test-data: |
     no data
   steps:
@@ -106,7 +106,7 @@
     Пользователь должен иметь возможность добавлять товары в корзину и
     просматривать содержимое корзины
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/)
+    Открыта главная страница 
   test-data: |
     no data
   steps:
@@ -119,7 +119,7 @@
   requirement: |
     Сайт должен быть доступен на различных устройствах
   prerequisites: |
-    Открыта главная страница (https://hexlet-products-store.vercel.app/)
+    Открыта главная страница 
   test-data: |
     no data
   steps:
