@@ -260,3 +260,18 @@
     Отобразится товар который закончился на всем сайте
   actual-result: |
     Отобразится товар который закончился на данной странице
+
+    - summary: >
+    Ошибка в загрузке ресурсов
+  environment: |
+    Google Chrome Версия 131.0.6778.109 (Официальная сборка), (64 бит)
+    Windows 11 Pro 22H2
+  steps-to-reproduce: |
+    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
+    2. Открыть инструмент devtools
+    3. Открыть в инструменте вкладку Network
+  expected-result: >
+    Все файлы должны иметь 200 или 304
+  actual-result: >
+    Файлы Random.css и author.js имеют статус "(failed) net::ERR_NAME_NOT_RESOLVE"
+    Ошибка изображена на скриншоте assets/2.png
