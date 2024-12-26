@@ -75,7 +75,7 @@
   test-data: |
     no data
   steps:
-    no steps
+    - no steps
   expected-result: |
     В каталоге у товара выводятся название, рейтинг, цена со скидкой и без
 
